@@ -45,7 +45,7 @@ function AddEmployee(): JSX.Element {
                     <input type="text" {...register("lastName", {
                     required: { value: true, message: "Missing last name" }
                 })} />
-                <span>{formState.errors.firstName?.message}</span>       
+                <span>{formState.errors.lastName?.message}</span>       
                 <br></br>
                 <label> Title: </label>
                      <input type="text" {...register("title", {
