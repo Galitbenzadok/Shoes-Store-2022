@@ -1,0 +1,24 @@
+.ListOfShoes {
+  display: flex;
+  direction: rtl;
+  text-align: right;
+  background-color: white;  
+  min-height: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+.ListOfShoes img {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    vertical-align: middle;
+}
+
+.ListOfShoes > div:last-child {
+    margin-left: auto;
+}
+ 

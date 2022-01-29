@@ -1,0 +1,22 @@
+.Employees {
+    width: 1200px;
+    margin-right: 200px;
+    display: inline;
+}
+
+
+ 
+.EmployeeCard img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.Employees .addBut {
+    position: absolute;
+    right: 370px;
+    top: 150px;
+    text-decoration: none;
+}

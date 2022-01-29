@@ -1,0 +1,38 @@
+.EmployeeDetails {   
+    width: 500px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 4px solid rgb(102, 8, 8);
+    border-radius: 10px;	
+}
+
+.EmployeeDetails .title{
+    text-decoration: underline;
+    direction: rtl;
+    color: rgb(102, 8, 8);	
+}
+
+.EmployeeDetails button{
+    
+    width: 20%;
+    text-align: center;
+    background-color: white;
+    border-color:rgb(79, 47, 47);	
+    color:rgb(79, 47, 47);	
+    margin: 20px 5px 10px 10px;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.EmployeeDetails .h3{
+    color:rgb(223, 97, 97)
+}
+
+.EmployeeDetails .details{
+    text-align: left;
+    width: 400px;
+}
+

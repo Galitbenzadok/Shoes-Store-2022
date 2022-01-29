@@ -1,0 +1,23 @@
+.EmplyeeCard {
+}
+
+.employeeInner {
+    text-align: left;
+}
+
+.Ebox {
+    display: inline-block;
+    margin: 30px;
+    padding: 30px 30px;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px;
+    text-align: center;
+    background-color: white;
+    color:rgb(8, 66, 66);
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 220px;
+    max-height: 220px;
+    font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.AddEmployee {
+	
+    direction: ltr;
+    width: 500px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 4px solid #660808;
+    border-radius: 10px;
+    text-align: left;	
+    padding: 5px 5px 10px 20px;
+}
+
+.AddEmployee .title { 
+    color: rgb(102, 8, 8);	
+}
+
+.AddEmployee label {    
+    line-height: 35x;
+}
+.AddEmployee input {
+    display:flex;    
+    width: 90%;
+    height: 25px;
+    border: 2px solid rgb(102, 12, 39);
+    border-radius: 3px;
+
+}
+
+.AddEmployee button {
+    border: 2px solid rgb(102, 12, 39);
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 80px;
+    margin-left: 40%;
+    
+}
+
+.AddEmployee span {
+    color: red;
+    margin: 0 20px;
+    position: absolute;
+    font-size: 20px;
+}

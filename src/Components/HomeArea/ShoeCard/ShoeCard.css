@@ -1,0 +1,26 @@
+.ShoeCard >* {
+    direction: rtl;    
+    text-align: right;	
+    background-color: white;	
+}
+
+.ShoeBox {
+    width: 450px;
+    min-height: 250px;
+    display: grid;
+    line-height: 20px;
+    margin: 10px;
+    padding: 10px 40px;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px;
+    text-align: left;
+    background-color: white;	
+
+}
+
+.imgDiv {
+    display: inline-block;
+    margin-right: 100px; 
+    width: 150px; 
+}
